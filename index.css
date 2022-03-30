@@ -1,0 +1,195 @@
+
+body{
+
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    overflow-x: hidden;
+
+}
+
+.sideMenu{
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2c2b2b;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+
+}
+
+.main-menu h3{
+
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.sideMenu .closebtn{
+
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+#data{
+
+    display: grid;
+    justify-content: center;
+
+}
+
+label{
+
+    color: white;
+    margin-bottom: -7px;
+    margin-top: 4px;
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: bold;
+
+}
+
+input{
+
+    padding-right: 200px;
+    margin-top: 20px;
+    height: 55px;
+
+}
+
+#lisa{
+
+    margin-left: 250px;
+    margin-top: 45px;
+}
+
+.navrida{
+
+    background-color: #2c2b2b;
+    height: 85px;
+
+}
+
+.btn{
+
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.icard1{
+
+    height: 12vh;
+    width:  60%;
+    background-color: white;
+    margin-top: 14px;
+    border-radius: 6px;
+
+}
+
+.icard2{
+
+    height: 24vh;
+    width:  60%;
+    background-color: white;
+    margin-top: 14px;
+    border-radius: 6px;
+    background-image: url("d4.jpg");
+    background-size: cover;
+
+}
+
+.icard3{
+
+    height: 23vh;
+    width:  60%;
+    background-color: white;
+    margin-top: 14px;
+    background-image: url("d2.png");
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.icard4{
+
+    height: 18vh;
+    width:  60%;
+    background-color: white;
+    margin-top: 14px;
+    border-radius: 6px;
+}
+
+h5{
+    padding-left: 15px;
+    padding-top: 14px;
+    font-size: 16px;
+    color: grey;
+    font-family: inherit;
+    font-weight: bold;
+}
+
+.col-4{
+
+    height: 100%;
+    margin-top: 35px;
+    padding-left: 165px;
+
+}
+
+.timelog{
+
+    padding-left: 85px;
+    padding-top: 20px;
+
+}
+
+.tags{
+
+    font-weight: bold;
+    justify-content: space-evenly ;
+    display: flex;
+    color: white;
+    margin-top: 30px;
+    font-size: 16px;
+
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 92%;
+}
+
+#customers td, th {
+    padding: 4px;
+    padding-left: 10px;
+}
+
+#customers tr {
+    background-color: #D3D3D3;
+    line-height: 45px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+
