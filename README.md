@@ -5,5 +5,5 @@ Each session owner was able to create or add entries.
 Entries would be then be requested from the DB and conveyed in a table.
 
 ### Backend: PHP
-#### Frontend: HTML/CSS and JS
+### Frontend: HTML/CSS and JS
 ### DB: mySQL
